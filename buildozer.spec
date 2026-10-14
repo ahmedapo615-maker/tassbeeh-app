@@ -9,14 +9,12 @@ requirements = python3,kivy
 orientation = portrait
 android.permissions = INTERNET
 
-# (int) Target Android API, should be as high as possible.
 android.api = 33
-
-# (int) Minimum API your APK will support.
 android.minapi = 21
-
-# (int) Android SDK version to use
 android.sdk = 33
+
+# (str) Indicate whether the build should accept Android SDK licenses
+android.accept_sdk_license = True
 
 [buildozer]
 log_level = 2
