@@ -9,6 +9,9 @@ package.name = tasbeehapp
 # (str) Package domain (needed for android packaging)
 package.domain = org.mohamed
 
+# (str) Version of the application
+version = 0.1
+
 # (str) Source directory where the app lives
 source.dir = .
 
